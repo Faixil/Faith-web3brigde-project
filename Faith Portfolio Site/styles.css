@@ -1,0 +1,235 @@
+p{
+    font-family: 'Poppins-thin', sans-serif;
+    font-size: 1rem;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+}
+
+hr{
+    font-family: 'Poppins', sans-serif;
+    border: 10px solid; 
+    border-bottom: 0;
+    color:white;
+    opacity: 100;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color:#fff;
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.nav-link{
+    font-family: 'Poppins-thin', sans-serif;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1rem;
+}
+.navbar .navbar-nav .nav-link:hover {
+  background-color: #010033;
+  color: #fff;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-item{
+    padding: 0 15px;
+}
+.container-fluid{
+    text-align:left;
+    padding: 0;
+}
+.logo-name{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-left: 8%;
+}
+
+.container-carousel{
+    position: relative;
+    color: white;
+    
+    
+}
+.carousel-item{
+    padding: 0;
+} 
+.head1{
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    
+}
+
+/* My Job section */
+
+.container-my-job{
+    position: relative;
+    color: white;
+    text-align: center;
+    
+}
+
+.job-description{
+    position: absolute;
+    top: 3rem;
+    padding: 5% 15%;
+}
+.job-picture{
+    margin-right: 25rem;
+   
+}
+.job-heading{
+    margin: 30px 70px;
+    
+} 
+.jobs{
+    color: #010033;
+}
+.p-job{
+    color: white;
+    padding: 10px 25px;
+}
+
+.job1{
+    display: inline-block;
+    margin-bottom: 50px;
+    
+}
+.job2{
+    display: inline-block;
+} 
+
+.job-icon {
+    padding: 5px 0;
+    color:#fff;
+}
+
+/* My portfolio */
+#portfolio{
+    text-align: center;
+    background-color: rgb(237, 233, 233);
+    padding: 7% 27%;
+}
+
+.h2-port{
+    color: #010033;
+    
+}
+.p-port{
+    font-family: 'Poppins-thin', sans-serif;
+    margin: 50px;
+    color: red;
+}
+
+/* About Me  */
+
+#about{
+    background-color: #010033;
+    padding: 10% 12%;
+    text-align: justify;
+}
+.h-about{
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.p-about{
+    color:grey;
+}
+
+.about-image{
+    border-radius: 100%;
+    padding: 10%;
+}
+
+
+/* EXHIBITION SECTION */
+#exhibition{
+    background-color: #010033;
+    padding-bottom: 3%;
+    color:grey;
+   
+}
+.exhibition-image{
+    padding: 0 10px;
+    height: 50%;
+}
+.h-exhibition{
+    padding: 0 10px;
+    margin: 25px 0;
+}
+.p-exhibition{
+    padding: 0 10px;
+}
+.p-date{
+    padding: 0 10px;
+    font-size: x-small;
+}
+.a-exhibition{
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+/* FOOTER SECTION */
+#footer{
+    padding: 5%;
+    text-align: center;
+    /* background-color: rgb(237, 233, 233); */
+    background-color: #00acff;
+    font-family: 'Poppins-thin', sans-serif;
+    
+}
+.h-footer{
+    color:#010033;
+    font-size: 2rem;
+    padding: 15px;
+}
+
+.p-connect{
+    color: #010033;
+    font-size: large;
+}
+
+.phone-number{
+    color: #010033;
+    font-size: large;
+}
+
+.social-icon{
+    color:#010033;
+    margin: 10px;
+}
+.social-icon:hover{
+    color: #fff;
+}
+.fa-suitcase{
+    padding: 5px;
+}
+
+@media(max-width: 620px){
+    h1{
+        font-size: 2.5rem;
+    }
+    .head1{
+        text-align: center;
+    }
+}
+.testing{
+    padding: 5% 7%;
+    margin: 5%;
+}
